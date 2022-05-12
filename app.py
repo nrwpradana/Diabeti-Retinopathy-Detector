@@ -26,8 +26,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.title("Diabetic Retinopathy Detector")
-st.subheader("by Nadhiar")
+st.title("Deteksi Retinopati Diabetika")
+#st.subheader("by Nadhiar")
 #st.text("Unggah gambar fundus disini ")
 
 model = load_the_model()
