@@ -65,7 +65,7 @@ def callback_func():
       result_array *= 100
       result = result_array.tolist()
 
-      st.write(result)
+      #st.write(result)
   
       result_arr = []
       for i in result:
@@ -93,7 +93,7 @@ def callback_func():
         message = '"Severe Nonproliferative Retinopathy"(3) dengan level confidence ' + str(message) + '.' + str(decimal) + '% confidence.'
       elif og_counter == 4:
         message = '"Proliferative Retinopathy"(4) dengan level confidence ' + str(message) + '.' + str(decimal) + '% confidence.'
-      st.write(result_arr)
+      #st.write(result_arr)
 
       st.markdown('<p class="big-font">' + message + '</p>', unsafe_allow_html=True)
       
@@ -140,7 +140,7 @@ if uploaded_file is not None:
   result_array *= 100
   result = result_array.tolist()
   
-  st.write(result)
+  #st.write(result)
   result_arr = []
   for i in result:
     result_arr.append(str(i)[0:2] + '.' + str(i)[3] + '% confidence')
